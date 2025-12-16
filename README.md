@@ -126,7 +126,7 @@
 
 <img width="1439" height="900" alt="изображение" src="https://github.com/user-attachments/assets/ca9bc953-2a1d-4c01-aa29-5e0ab9cd8d45" />
 
-<img width="1565" height="844" alt="изображение" src="https://github.com/user-attachments/assets/4ad1b762-84a3-4c51-a84c-be1d43898e9d" />
+<img width="398" height="371" alt="изображение" src="https://github.com/user-attachments/assets/c32f395c-d917-4989-ac05-8fe7c41a7b42" />
 
 
 ---
