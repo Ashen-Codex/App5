@@ -257,7 +257,15 @@ private void PrintMatrixRow(int row, int size)
 
 ### Практическая задача 5.2
 **Тема: Безопасность приложения**
+<img width="1571" height="564" alt="изображение" src="https://github.com/user-attachments/assets/a25090ad-3eac-4fcf-8579-211ee13ea40b" />
 
+<img width="783" height="623" alt="изображение" src="https://github.com/user-attachments/assets/28363bb9-e344-4615-b05f-e840232b4a53" />
+
+<img width="773" height="610" alt="изображение" src="https://github.com/user-attachments/assets/09b3bac0-7fdf-4f94-a362-0853ee0dec90" />
+
+<img width="777" height="557" alt="изображение" src="https://github.com/user-attachments/assets/19dd3763-81aa-4116-8ac8-b1c598971933" />
+
+<img width="790" height="521" alt="изображение" src="https://github.com/user-attachments/assets/48de8b63-4362-44eb-a54e-9ce6d635543b" />
 
 ---
 
