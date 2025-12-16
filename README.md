@@ -86,8 +86,11 @@
 
 ### Практическая задача 4.2
 **Тема: Работа со структурами данных**
+<img width="1584" height="990" alt="изображение" src="https://github.com/user-attachments/assets/3df6d6a7-e633-49c6-8b45-686e6acc733e" />
 
+<img width="1577" height="978" alt="изображение" src="https://github.com/user-attachments/assets/34706f1e-d4c2-400e-b283-f814e6c8315b" />
 
+<img width="1572" height="992" alt="изображение" src="https://github.com/user-attachments/assets/eb78e182-545c-4ffc-b68d-2e3e44df83d3" />
 
 ---
 
