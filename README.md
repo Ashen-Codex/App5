@@ -51,7 +51,15 @@
 
 ### Практическая задача 3.1
 **Тема: Многоуровневая архитектура приложения**
+<img width="1579" height="975" alt="изображение" src="https://github.com/user-attachments/assets/77b2d58e-d898-4781-8a5a-8715f1820a31" />
 
+Добавление
+<img width="1574" height="980" alt="изображение" src="https://github.com/user-attachments/assets/2beb85f6-5a0f-44cb-bc22-71b39730feaf" />
+<img width="1577" height="981" alt="изображение" src="https://github.com/user-attachments/assets/94f4b59f-d862-48e0-82de-c7f0a7162f88" />
+
+Удаление
+<img width="1580" height="984" alt="изображение" src="https://github.com/user-attachments/assets/4d3c9c52-775e-4165-9977-14269fb346ae" />
+<img width="1577" height="986" alt="изображение" src="https://github.com/user-attachments/assets/713db7ca-7c1b-4a8c-9046-a3b5379a7132" />
 
 ---
 
