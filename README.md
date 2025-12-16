@@ -74,7 +74,13 @@
 ### Практическая задача 4.1
 **Тема: Анализ сложности алгоритмов**
 
+<img width="1575" height="900" alt="изображение" src="https://github.com/user-attachments/assets/699d6b4c-119f-4ada-8f0f-0af36b359828" />
 
+<img width="1572" height="913" alt="изображение" src="https://github.com/user-attachments/assets/cf8a0728-7f03-41e0-a77b-531366fc2a65" />
+
+<img width="1582" height="926" alt="изображение" src="https://github.com/user-attachments/assets/9279c9ee-ab77-45f8-a3db-e362b442a8f9" />
+
+<img width="1578" height="962" alt="изображение" src="https://github.com/user-attachments/assets/ca1d3cf8-9d1e-44c4-84bc-ff39593bc35c" />
 
 ---
 
