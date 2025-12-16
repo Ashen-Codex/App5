@@ -122,6 +122,11 @@
 ### Практическая задача 6.1
 **Тема: Разработка REST API**
 
+<img width="1576" height="983" alt="изображение" src="https://github.com/user-attachments/assets/879f63fe-6f78-4da9-99c7-72f3413c073b" />
+
+<img width="1439" height="900" alt="изображение" src="https://github.com/user-attachments/assets/ca9bc953-2a1d-4c01-aa29-5e0ab9cd8d45" />
+
+<img width="1565" height="844" alt="изображение" src="https://github.com/user-attachments/assets/4ad1b762-84a3-4c51-a84c-be1d43898e9d" />
 
 
 ---
