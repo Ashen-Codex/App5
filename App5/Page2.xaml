@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="App5.Page2"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="OutputTextBlock"
+                   Text="Нажмите кнопку для отображения уведомления"
+                   FontSize="18"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="15">
+            <Button Content="Ошибка" Click="OnErrorClick" Width="100" Height="40"/>
+            <Button Content="Предупреждение" Click="OnWarningClick" Width="120" Height="40"/>
+            <Button Content="Информация" Click="OnInfoClick" Width="120" Height="40"/>
+        </StackPanel>
+    </Grid>
+</Page>

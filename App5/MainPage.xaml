@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="App5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:Name="navView"
+            Loaded="NavigationView_Loaded"
+            SelectionChanged="NavigationView_SelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Главная" Tag="HomePage" Icon="Home"/>
+            <NavigationViewItem Content="Задание 1" Tag="Page1" />
+            <NavigationViewItem Content="Задание 2" Tag="Page2" />
+            <NavigationViewItem Content="Задание 3" Tag="Page3" />
+            <NavigationViewItem Content="Задание 4" Tag="Page4" />
+            <NavigationViewItem Content="Задание 5" Tag="Page5" />
+            <NavigationViewItem Content="Задание 6" Tag="Page6" />
+            <NavigationViewItem Content="Задание 7" Tag="Page7" />
+            <NavigationViewItem Content="Задание 8" Tag="Page8" />
+            <NavigationViewItem Content="Задание 9" Tag="Page9" />
+            <NavigationViewItem Content="Задание 10" Tag="Page10" />
+            <NavigationViewItem Content="Задание 11" Tag="Page11" />
+            <NavigationViewItem Content="Задание 12" Tag="Page12" />
+            <NavigationViewItem Content="Задание 13" Tag="Page13" />
+            <NavigationViewItem Content="Задание 14" Tag="Page14" />
+            <NavigationViewItem Content="Задание 15" Tag="Page15" />
+            <NavigationViewItem Content="Задание 16" Tag="Page16" />
+            <NavigationViewItem Content="Задание 17" Tag="Page17" />
+            <NavigationViewItem Content="Задание 18" Tag="Page18" />
+            <NavigationViewItem Content="Задание 19" Tag="Page19" />
+            <NavigationViewItem Content="Задание 20" Tag="Page20" />
+            <NavigationViewItem Content="Задание 21" Tag="Page21" />
+            <NavigationViewItem Content="Задание 22" Tag="Page22" />
+            <NavigationViewItem Content="Задание 23" Tag="Page23" />
+            <NavigationViewItem Content="Задание 24" Tag="Page24" />
+            <NavigationViewItem Content="Задание 25" Tag="Page25" />
+            <NavigationViewItem Content="Задание 26" Tag="Page26" />
+            <NavigationViewItem Content="Задание 27" Tag="Page27" />
+            <NavigationViewItem Content="Задание 28" Tag="Page28" />
+            <NavigationViewItem Content="Задание 29" Tag="Page29" />
+            <NavigationViewItem Content="Задание 30" Tag="Page30" />
+            <NavigationViewItem Content="Задание 31" Tag="Page31" />
+            <NavigationViewItem Content="Задание 32" Tag="Page32" />
+            <NavigationViewItem Content="Задание 33" Tag="Page33" />
+            <NavigationViewItem Content="Задание 34" Tag="Page34" />
+            <NavigationViewItem Content="Задание 35" Tag="Page35" />
+            <NavigationViewItem Content="Задание 36" Tag="Page36" />
+            <NavigationViewItem Content="Задание 37" Tag="Page37" />
+            <NavigationViewItem Content="Задание 38" Tag="Page38" />
+            <NavigationViewItem Content="Задание 39" Tag="Page39" />
+            <NavigationViewItem Content="Задание 40" Tag="Page40" />
+            
+        </NavigationView.MenuItems>
+
+        <Frame x:Name="ContentFrame" />
+      </NavigationView>
+    </Grid>
+</Page>
