@@ -2,15 +2,31 @@
 
 ### Практическая задача 1.1
 **Тема: Создание простого приложения с использованием принципов ООП**
+<img width="1271" height="470" alt="image" src="https://github.com/user-attachments/assets/887fc5e1-5c4a-40b9-9450-cc1bc9973f83" />
+6+9
+<img width="1277" height="428" alt="image" src="https://github.com/user-attachments/assets/86619932-9b3f-4785-90ab-572b54059d88" />
+9-6
+<img width="1279" height="472" alt="image" src="https://github.com/user-attachments/assets/01cedabb-8c20-447d-bc3d-5f3c0f9fc155" />
 
+6*100
+<img width="1278" height="544" alt="image" src="https://github.com/user-attachments/assets/c3925f66-17c5-4f7e-bd55-2cd552bb3d20" />
 
+12/6
+<img width="1282" height="598" alt="image" src="https://github.com/user-attachments/assets/a697ea3b-afbe-427e-a3d2-ae93b3950e71" />
+
+12/0
+<img width="1280" height="455" alt="image" src="https://github.com/user-attachments/assets/e4a35ea3-048b-4056-8616-b332373ff582" />
 
 ---
 
 ### Практическая задача 1.2
 **Тема: Тестирование функциональности приложения**
+<img width="1281" height="136" alt="image" src="https://github.com/user-attachments/assets/21d0bf7d-213d-459b-8cde-5c391949d31e" />
+<img width="1277" height="121" alt="image" src="https://github.com/user-attachments/assets/e9b15842-271b-43f0-8432-cc285676e795" />
+<img width="1280" height="118" alt="image" src="https://github.com/user-attachments/assets/5b76dbda-45c5-42e1-b82d-9503672f0907" />
+<img width="1273" height="134" alt="image" src="https://github.com/user-attachments/assets/6124c2fe-d849-40f6-8366-9d5bb5081434" />
 
-![2025-12-16 19-00-42](https://github.com/user-attachments/assets/9937bb02-4c86-49d7-9b63-2d9f7eef29c4)
+
 
 
 ---
