@@ -246,6 +246,7 @@
 ### Практическая задача 15.2
 **Тема: Работа с сетевыми соединениями**
 
+<img width="1147" height="359" alt="Снимок экрана 2025-12-17 001526" src="https://github.com/user-attachments/assets/d32caa75-b9d7-45f9-bdf3-2fa89b714d53" />
 
 
 ---
@@ -261,6 +262,7 @@
 ### Практическая задача 16.2
 **Тема: Параллельная обработка данных**
 
+<img width="1052" height="838" alt="Снимок экрана 2025-12-17 001520" src="https://github.com/user-attachments/assets/57e9a366-6413-43ed-9823-8dced1f95889" />
 
 
 ---
@@ -277,6 +279,7 @@
 ### Практическая задача 17.2
 **Тема: Кодировки и работа с Unicode**
 
+<img width="1137" height="856" alt="Снимок экрана 2025-12-17 001509" src="https://github.com/user-attachments/assets/8a4f4b6a-e63b-4d9c-86ac-dafe09053321" />
 
 
 ---
@@ -293,6 +296,7 @@
 ### Практическая задача 18.2
 **Тема: Валидация форм**
 
+<img width="1145" height="632" alt="Снимок экрана 2025-12-17 001456" src="https://github.com/user-attachments/assets/fe2c00b3-1faa-48b5-b8f8-b01fbc54a2b3" />
 
 
 ---
