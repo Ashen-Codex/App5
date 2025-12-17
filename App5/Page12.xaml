@@ -2,13 +2,102 @@
     x:Class="App5.Page12"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:App5"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <TextBlock 
+            Text="Парадигмы программирования" 
+            FontSize="28" 
+            FontWeight="SemiBold" 
+            Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="0,0,0,20">
+            <TextBox 
+                x:Name="NumberTextBox" 
+                PlaceholderText="Введите N" 
+                Width="150"
+                Height="40"
+                FontSize="16"
+                Padding="10"
+                InputScope="Number"/>
+
+            <Button 
+                Content="Запустить тест" 
+                Click="RunTest_Click"
+                Width="150"
+                Height="40"
+                Background="#FF0078D7"
+                Foreground="White"
+                FontSize="16"
+                CornerRadius="4"/>
+        </StackPanel>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border 
+                Grid.Column="0"
+                Margin="0,0,5,0"
+                BorderThickness="1"
+                BorderBrush="#FFDDDDDD"
+                CornerRadius="8"
+                Padding="15">
+                <StackPanel>
+                    <TextBlock Text="Процедурная" FontSize="20" Margin="0,0,0,15" FontWeight="SemiBold"/>
+
+                    <TextBlock Text="Результат:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="ProceduralResultTextBlock" Text="0" Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Время выполнения:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="ProceduralTimeTextBlock" Text="0 мс"/>
+                </StackPanel>
+            </Border>
+
+            <Border 
+                Grid.Column="1"
+                Margin="5,0,5,0"
+                BorderThickness="1"
+                BorderBrush="#FFDDDDDD"
+                CornerRadius="8"
+                Padding="15">
+                <StackPanel>
+                    <TextBlock Text="ООП" FontSize="20" Margin="0,0,0,15" FontWeight="SemiBold"/>
+
+                    <TextBlock Text="Результат:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="OopResultTextBlock" Text="0" Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Время выполнения:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="OopTimeTextBlock" Text="0 мс"/>
+                </StackPanel>
+            </Border>
+
+            <Border 
+                Grid.Column="2"
+                Margin="5,0,0,0"
+                BorderThickness="1"
+                BorderBrush="#FFDDDDDD"
+                CornerRadius="8"
+                Padding="15">
+                <StackPanel>
+                    <TextBlock Text="Функциональная" FontSize="20" Margin="0,0,0,15" FontWeight="SemiBold"/>
+
+                    <TextBlock Text="Результат:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="FunctionalResultTextBlock" Text="0" Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Время выполнения:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+                    <TextBlock x:Name="FunctionalTimeTextBlock" Text="0 мс"/>
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 </Page>

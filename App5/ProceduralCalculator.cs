@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace App5
+{
+    public static class ProceduralCalculator
+    {
+        public static int SumOfSquares(int n)
+        {
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                sum += i * i;
+            }
+            return sum;
+        }
+    }
+}

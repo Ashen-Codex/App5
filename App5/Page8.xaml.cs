@@ -1,30 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Diagnostics;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-
-// Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace App5
 {
-    /// <summary>
-    /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
-    /// </summary>
     public sealed partial class Page8 : Page
     {
         public Page8()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+            AddLog("Приложение запущено. Готово к отладке.");
+        }
+
+        private void AddLog(string message)
+        {
+            LogTextBlock.Text += $"{DateTime.Now:HH:mm:ss} - {message}\n";
+        }
+
+        private void NullReference_Click(object sender, RoutedEventArgs e)
+        {
+            AddLog("Вызван метод с NullReferenceException");
+            try
+            {
+                List<string> items = null;
+                for (int i = 0; i < items.Count; i++)
+                {
+                    Debug.WriteLine($"Item: {items[i]}");
+                    AddLog($"Обработка элемента {i}");
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorTextBlock.Text = $"Ошибка: {ex.GetType().Name}\n{ex.Message}";
+                AddLog($"Ошибка: {ex.GetType().Name} - {ex.Message}");
+            }
+        }
+
+        private void IndexOutOfBounds_Click(object sender, RoutedEventArgs e)
+        {
+            AddLog("Вызван метод с IndexOutOfRangeException");
+            try
+            {
+                int[] numbers = { 1, 2, 3 };
+                for (int i = 0; i <= numbers.Length; i++)
+                {
+                    Debug.WriteLine($"Number: {numbers[i]}");
+                    AddLog($"Число: {numbers[i]}");
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorTextBlock.Text = $"Ошибка: {ex.GetType().Name}\n{ex.Message}";
+                AddLog($"Ошибка: {ex.GetType().Name} - {ex.Message}");
+            }
+        }
+
+        private void DivideByZero_Click(object sender, RoutedEventArgs e)
+        {
+            AddLog("Вызван метод с DivideByZeroException");
+            try
+            {
+                int a = 10;
+                int b = 0;
+                int result = a / b;
+                Debug.WriteLine($"Result: {result}");
+                AddLog($"Результат: {result}");
+            }
+            catch (Exception ex)
+            {
+                ErrorTextBlock.Text = $"Ошибка: {ex.GetType().Name}\n{ex.Message}";
+                AddLog($"Ошибка: {ex.GetType().Name} - {ex.Message}");
+            }
         }
     }
 }

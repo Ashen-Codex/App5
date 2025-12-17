@@ -1,30 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-
-// Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace App5
 {
-    /// <summary>
-    /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
-    /// </summary>
     public sealed partial class Page10 : Page
     {
         public Page10()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+        }
+
+        private void SaveHabit_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(NameTextBox.Text))
+            {
+                ErrorTextBlock.Text = "Введите название привычки";
+                return;
+            }
+
+            var newHabit = new Habit
+            {
+                Name = NameTextBox.Text,
+                Description = DescriptionTextBox.Text,
+                Target = TargetTextBox.Text,
+                Progress = 0
+            };
+
+            Frame.Navigate(typeof(Page9), newHabit);
+        }
+
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Page9));
         }
     }
 }
