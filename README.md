@@ -494,14 +494,16 @@ namespace App5
 
 ### Практическая задача 8.1
 **Тема: Парадигмы программирования**
+<img width="1578" height="391" alt="изображение" src="https://github.com/user-attachments/assets/eccd6480-874e-47fe-8505-3d94fa8ed2ed" />
 
-
+<img width="1580" height="508" alt="изображение" src="https://github.com/user-attachments/assets/af49b314-f203-429a-bf05-8442283f6b60" />
 
 ---
 
 ### Практическая задача 8.2
 **Тема: Работа с файлами и потоками**
 
+<img width="1561" height="664" alt="изображение" src="https://github.com/user-attachments/assets/0001b30a-ba60-499d-934b-6a0ed1707d0f" />
 
 ---
 
